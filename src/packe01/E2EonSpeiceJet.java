@@ -18,6 +18,9 @@ public class E2EonSpeiceJet {
 //        Thread.sleep(1000);
         driver.findElement(By.xpath("//a[@value='HYD']")).click();
         Thread.sleep(1000);
+
+
+
         driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='BOM']")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//td[contains(@class,'ui-datepicker-today')]")).click();
