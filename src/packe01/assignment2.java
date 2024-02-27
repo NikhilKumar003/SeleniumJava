@@ -61,6 +61,7 @@ public class assignment2 {
     }
 
 
+
      public static String[] loginValues(WebDriver driver){
         String text= driver.findElement(By.cssSelector("p.text-center.text-white")).getText();
         String[] fname= text.split("is");
